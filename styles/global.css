@@ -31,7 +31,13 @@
   --fs-base: 1rem;
   --fs-lg: 1.25rem;
   --fs-xl: 1.5rem;
-  --fs-2xl: 2.5rem; 
+  --fs-2xl: 2.5rem;
+  
+  --py-base: 1rem;
+  --py-lg: 1.5rem;
+  --py-xl: 3rem;
+
+  --px-lg: 1.5rem;
 }
 
 html{
@@ -79,5 +85,13 @@ ul[role="list"]{
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+
+    /* Espaçamento lateral de 32px */
+    --px-lg: 2rem;
+
+    /* Espaçamentos do topo e bottom*/
+    --py-base: 1.5rem;
+    --py-lg: 2.5rem;
+    --py-xl: 5rem;
   }
 }
