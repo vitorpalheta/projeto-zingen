@@ -46,6 +46,10 @@
   gap: 1.5rem;
 }
 
+.grid {
+  display: grid;
+}
+
 
 @media (width >= 80em){
   .container{
